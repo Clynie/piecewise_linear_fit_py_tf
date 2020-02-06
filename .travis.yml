@@ -10,11 +10,11 @@ install:
   - pip install pytest --upgrade
   - pip install . --no-cache-dir
 script:
-  - pytest --cov=pwlf -p no:warnings tests/tests.py
+  - pytest --cov=pwlftf -p no:warnings tests/tests.py
   - pip install "tensorflow==1.14.0"
-  - pytest --cov=pwlf --cov-append -p no:warnings tests/teststf.py
+  - pytest --cov=pwlftf --cov-append -p no:warnings tests/teststf.py
 before_script:
-  - flake8 pwlf
+  - flake8 pwlftf
   - pytest --version
 after_success:
   - pip install python-coveralls
