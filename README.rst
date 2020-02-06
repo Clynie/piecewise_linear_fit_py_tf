@@ -1,7 +1,7 @@
 About
 =====
 
-\*\ **This repo is not actively maintained.**
+**This repo is not actively maintained.**
 
 This is a depreciated version of
 `pwlf <https://github.com/cjekel/piecewise_linear_fit_py>`__, which used
@@ -13,8 +13,8 @@ This library is for fitting continuous piecewise linear functions to
 data. Just specify the number of line segments you desire and provide
 the data.
 
-Useage
-======
+How to use
+==========
 
 .. code:: python
 

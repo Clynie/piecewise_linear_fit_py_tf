@@ -1,12 +1,12 @@
 # About
 
-***This repo is not actively maintained.**
+**This repo is not actively maintained.**
 
 This is a depreciated version of [pwlf](https://github.com/cjekel/piecewise_linear_fit_py), which used TensorFlow as the linear algebra backend. I wasn't keeping this TensorFlow port up-to-date with the latest and greatest changes to pwlf so it didn't make sense to keep this. 
 
 This library is for fitting continuous piecewise linear functions to data. Just specify the number of line segments you desire and provide the data.
 
-# Useage
+# How to use
 
 ```python
 import numpy as np
