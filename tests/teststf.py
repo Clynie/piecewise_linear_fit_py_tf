@@ -1,6 +1,6 @@
 import numpy as np
 import unittest
-import pwlf
+import pwlftf as pwlf
 import tensorflow as tf
 import os
 
