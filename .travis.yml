@@ -8,10 +8,10 @@ python:
 install:
   - pip install flake8 pytest-cov pyDOE
   - pip install pytest --upgrade
+  - pip install "tensorflow==1.14.0"
   - pip install . --no-cache-dir
 script:
   - pytest --cov=pwlftf -p no:warnings tests/teststf.py
-  - pip install "tensorflow==1.14.0"
 before_script:
   - flake8 pwlftf
   - pytest --version
