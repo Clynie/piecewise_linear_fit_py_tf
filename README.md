@@ -1,5 +1,7 @@
 # About
 
+[![Build Status](https://travis-ci.com/cjekel/piecewise_linear_fit_py_tf.svg?branch=master)](https://travis-ci.com/cjekel/piecewise_linear_fit_py_tf)
+
 **This repo is not actively maintained.**
 
 This is a depreciated version of [pwlf](https://github.com/cjekel/piecewise_linear_fit_py), which used TensorFlow as the linear algebra backend. I wasn't keeping this TensorFlow port up-to-date with the latest and greatest changes to pwlf so it didn't make sense to keep this. 
